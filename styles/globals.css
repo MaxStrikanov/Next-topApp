@@ -2,9 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
   color: var(--black);
   background: #F5F6F8;
-  font-family: var(--font-family);
 }
 
 a {
@@ -17,13 +17,16 @@ a {
 }
 
 :root {
-  --black: #3B434E;
+  --black:  #3B434E;
   --white: white;
-  --primary: #7653FC;
-  --primary-hover: #4922e6;
+  --primary:  #7653FC;
+  --primary-hover:  #502ddb;
   --red: #FC836D;
   --green: #1DC37E;
   --green-light: #C8F8E4;
   --font-family: 'Open Sans', sans-serif;
   --gray-light: #EBEBEB;
+
+
+
 }

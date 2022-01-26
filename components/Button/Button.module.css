@@ -2,20 +2,20 @@
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 10px;
-	border-radius: 5px;
 	cursor: pointer;
 	text-align: center;
-	transition: all 0.2s;
+	border: none;
+	border-radius: 5px;
 	font-size: 14px;
+	transition: all 0.4s;
 }
 .primary {
-	background: var(--primary);
 	color: var(--white);
-	border: none;
+	background: var(--primary);
 }
 .primary:hover {
-	background: var(--primary-hover);
 	color: var(--white);
+	background: var(--primary-hover);
 }
 .ghost {
 	color: var(--black);
@@ -25,5 +25,18 @@
 .ghost:hover {
 	color: var(--white);
 	background: var(--primary);
-	
+}
+
+.arrow {
+	display: inline-block;
+	margin-left: 10px;
+}
+.down {
+	transform: rotate(90deg);
+	transition: all 0.4s;
+}
+
+.primary svg,
+.ghost:hover svg {
+	fill: var(--white)
 }
